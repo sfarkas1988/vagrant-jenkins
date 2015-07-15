@@ -63,4 +63,4 @@ mv phpcs.phar /usr/local/bin/phpcs
 #wget http://localhost:8080/jnlpJars/jenkins-cli.jar
 #mv jenkins-cli.jar /root/
 #java -jar /root/jenkins-cli.jar -s http://localhost:8080/ install-plugin checkstyle cloverphp htmlpublisher dry jdepend pmd violations xunit git github greenballs
-
+#java -jar /root/jenkins-cli.jar -s http://localhost:8080/ safe-restart
